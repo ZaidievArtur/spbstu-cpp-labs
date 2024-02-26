@@ -6,6 +6,7 @@
 double input (double &a, double &b, double &c){
     std::cout<<"Enter the numbers a, b and c in the format: \"ax^2 +bx + c\": ";
     std::cin >>a >> b >> c;
+    return 0;
 }
 
 double discriminant(double a,double b,double c){
