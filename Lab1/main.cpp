@@ -1,11 +1,14 @@
 #include <iostream>
+#include <vector>
 #include "HelpFunctions.h"
 
 
 int main()
 {
     double a,b,c;
-    input(a,b,c);
+    std::vector<double> res;
 
-    solution(a,b,c);
+    input(a,b,c);
+    res = solution(a,b,c,res);
+    print(res);
 }
